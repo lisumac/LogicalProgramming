@@ -1,7 +1,9 @@
+package stringproblemss;
+
 import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeating {
-    public static int lengthOfLongestSubstring(String s) {
+    public static HashSet<Character> lengthOfLongestSubstring(String s) {
         int start = 0;
         int end = 0;
         int max = 0;
@@ -17,7 +19,7 @@ public class LongestSubstringWithoutRepeating {
             }
 
         }
-        return max;
+        return characters;
 
     }
 

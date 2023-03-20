@@ -1,3 +1,5 @@
+package stringproblemss;
+
 public class LargestWordFromString {
 
     static String longestWord(String str) {

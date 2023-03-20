@@ -1,3 +1,5 @@
+package stringproblemss
+
 class LengthSubString {
     val stringss ="abcCde"
       fun   lenthSubString(stringss:String){
