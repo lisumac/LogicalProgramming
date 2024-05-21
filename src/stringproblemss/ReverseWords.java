@@ -78,10 +78,11 @@ public class ReverseWords {
         String sentenec = " I am programmer";
         String sentene = " i.like.this.program.very.much";
         String word = "Lisa";
+        String worddd = "Ninjas Coding to Welcome";
         //System.out.println(reverseWords(word));
-        //  System.out.println("Sentence::::"+reverseSentence(sentene));
+          System.out.println("Sentence::::"+reverseSentence(worddd));
         //System.out.println("Sentence::::" + reverseStringWithDot(sentene));
-        System.out.println("Sentence::::" + reverseWord(word));
+        //System.out.println("Sentence::::" + reverseWord(worddd));
         /*String input = "Geeks";
         char[] try1 = input.toCharArray();
         for (int i = try1.length-1;i >= 0; i--)

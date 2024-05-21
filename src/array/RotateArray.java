@@ -1,4 +1,9 @@
+package array;
+
+import java.util.Arrays;
+
 public class RotateArray {
+
 
 
     public void rotate(int[] nums, int k) {
@@ -21,6 +26,8 @@ public class RotateArray {
         System.out.println("Hello world!");
 //[1,3,5,6], target = 5
         int[] nums = new int[]{10, 11, 5, 6};
+        int[] rotatenums = new int[]{7, 5 ,2, 11 ,2, 43, 1, 1};
+        int n = 8;
 
         RotateArray rotateArray = new RotateArray();
         rotateArray.rotate(nums, 2);

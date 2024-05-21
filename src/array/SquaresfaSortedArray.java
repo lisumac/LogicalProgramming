@@ -1,3 +1,5 @@
+package array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Arrays.*;
@@ -25,7 +27,7 @@ public  class SquaresfaSortedArray {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = nums[i] * nums[i];
 
-            //System.out.println(nums[i]);
+            System.out.println(nums[i]);
         }
         return nums;
     }
